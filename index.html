@@ -513,7 +513,7 @@
     position: relative;
     height: 25vh;
     overflow: hidden;
-    background: black; /* 👈 sustituye la imagen */
+    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -909,18 +909,12 @@
 
 
     <script>
-        
-        // ─────────────────────────────────────────────────────────────────────────
-        //  PRODUCTOS — edita aquí nombre, precio, precioOriginal (tachado o null),
-        //  tallas (array de {talla, agotada} o null), imagen, descripción,
-        //  características, disponibilidad y VALORACIONES de cada producto.
-        //
         //  Para añadir valoraciones a un producto usa este formato:
         //  valoraciones: [
         //      { autor: 'Nombre', estrellas: 5, texto: 'Comentario del cliente.' },
         //      { autor: 'Otro',   estrellas: 4, texto: 'Otro comentario.' },
         //  ]
-        //  Si no quieres reseñas en un producto simplemente pon: valoraciones: []
+        //  Sin reseñas es: valoraciones: []
         // ─────────────────────────────────────────────────────────────────────────
         //  TEMPORIZADOR — pon aquí la fecha/hora de fin de la oferta
         //  Formato: 'YYYY-MM-DDTHH:MM:SS'  (hora local del servidor/ordenador)
@@ -1105,9 +1099,9 @@
 
 
         
-        // ─────────────────────────────────────────────────────────────────────────
-        //  LÓGICA DE LA TIENDA — no hace falta tocar nada de aquí abajo
-        // ─────────────────────────────────────────────────────────────────────────
+     
+        //  LÓGICA DE LA TIENDA
+    
 
         let cart = [];
         let total = 0;
